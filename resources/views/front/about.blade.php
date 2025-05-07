@@ -36,7 +36,7 @@
         <div class="row d-flex justify-content-center align-items-center mb-4">
             <div class="col-md-6 text-center">
                 <!-- Adjusted logo size -->
-                <img src="{{ asset('img/461161.png') }}" alt="ICTC Logo" class="img-fluid" style="max-width: 200px; height: auto;">
+                <img src="{{ asset($settings->logo ?? 'img/white logo.png') }}" alt="ICTC Logo" class="img-fluid" style="max-width: 231px; height: 155px;">
             </div>
         </div>
 

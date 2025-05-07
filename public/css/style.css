@@ -3099,7 +3099,7 @@ h3.title:hover::after {
 /**************** Section Hero ***************/
 
 header .logo img {
-  height: 53px;
+  height: 90px;
   width: 150px;
 }
 #hero {
@@ -3179,7 +3179,7 @@ header .logo img {
   align-items: flex-end !important;
 }
 .overlay{
-  background-color: rgba(4, 23, 46, 0.55);
+  background-color: rgba(4, 23, 46, 0.75);
 }
 .head-video{
   position: relative; height: 100vh; overflow: hidden;

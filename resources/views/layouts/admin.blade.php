@@ -4,9 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
-    <title>Ictc</title>
+    <title>Infinit Smart</title>
     <link rel="apple-touch-icon" href="{{asset("app-assets/images/ico/apple-icon-120.png")}}">
-    <link rel="shortcut icon" type="image/x-icon" href="{{asset('img/ictc.jpeg')}}">
+    <link rel="shortcut icon" type="image/x-icon" href="{{ asset($settings->logo ?? 'img/white logo.png') }}">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Quicksand:300,400,500,700"
     rel="stylesheet">
     <link href="https://maxcdn.icons8.com/fonts/line-awesome/1.1/css/line-awesome.min.css"
@@ -76,7 +76,7 @@
                     <li class="nav-item mobile-menu d-md-none mr-auto"><a class="nav-link nav-menu-main menu-toggle hidden-xs" href="#"><i class="ft-menu font-large-1"></i></a></li>
                     <li class="nav-item">
                         <a class="navbar-brand" href="{{route('home')}}">
-                          <img class="brand-logo" alt="modern admin logo" src="{{asset('img/461161.png')}}"
+                          <img class="brand-logo" alt="modern admin logo" src="{{ asset($settings->logo ?? 'img/white logo.png') }}"
                           style="height: 55px; width: 178px;">
                           {{-- <h3 class="brand-text">Screen Video </h3> --}}
                         </a>

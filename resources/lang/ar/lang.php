@@ -116,10 +116,10 @@ return [
     'hello' => 'مرحبًا',
 
 
-    //front home
-    'why_ictc_title' => 'لماذا',
-    'why_ictc_title_strong' => 'آي سي تي سي؟',
-    'why_ictc_subtitle' => 'اكتشف الأسباب الرئيسية التي تجعل آي سي تي سي الخيار الموثوق به للمنظمات حول العالم.',
+    // الصفحة الرئيسية
+    'why_infinit_title' => 'لماذا',
+    'why_infinit_title_strong' => 'إنفنيت سمارت؟',
+    'why_infinit_subtitle' => 'نحن شركة رائدة في تقديم حلول البرمجيات والتقنيات الذكية المتكاملة. من التطبيقات الذكية إلى أنظمة التحكم وإنترنت الأشياء، نقدم خدمات عالية التقنية بجودة وابتكار لا مثيل لهما.',
 
     'home' => 'الرئيسية',
     'about' => 'من نحن',
@@ -129,7 +129,7 @@ return [
     'videos_gallery' => 'معرض الفيديو',
     'partners' => 'الشركاء',
     'contact' => 'اتصل بنا',
-    'company_name' => 'آي سي تي سي للتدريب والاستشارات',
+    'company_name' => 'إنفنيت سمارت للتقنية والحلول الرقمية',
     'useful_links' => 'روابط مفيدة',
     'about_us' => 'من نحن',
     'working_area' => 'مجال العمل',
@@ -150,11 +150,11 @@ return [
     'next' => 'التالي',
     // About Us Section
     'about_title' => 'من نحن؟',
-    'about_description' => 'آي سي تي سي هي منظمة رائدة متخصصة في التدريب والبحث والتكنولوجيا وتطوير المؤسسات. مع خبرة واسعة في تنمية المجتمع وبناء القدرات، تقدم آي سي تي سي حلولاً مبتكرة لتعزيز الأداء المؤسسي والأثر المجتمعي.',
-    'feature_1_title' => 'حلول مبتكرة',
-    'feature_1_description' => 'استراتيجيات مخصصة لدفع النمو والاستدامة.',
-    'feature_2_title' => 'تركيز مجتمعي',
-    'feature_2_description' => 'تمكين المجتمعات من خلال مبادرات مؤثرة.',
+    'about_description' => 'إنفنيت سمارت هي شركة رائدة في تطوير البرمجيات، وتوفير حلول إنترنت الأشياء، وتنفيذ أنظمة التحكم الذكية للأبواب الدوارة. نتميز بتقديم حلول تقنية متقدمة مصممة خصيصًا لاحتياجات المؤسسات الحديثة مع الالتزام بأعلى معايير الجودة والأمان.',
+    'feature_1_title' => 'حلول تقنية متكاملة',
+    'feature_1_description' => 'نصمم ونطور تطبيقات ومشاريع ذكية تغطي جميع الجوانب من البرمجة حتى التكامل مع الأجهزة.',
+    'feature_2_title' => 'خبرة صناعية واسعة',
+    'feature_2_description' => 'فريقنا يجمع بين الخبرة الفنية والقدرة على التنفيذ لتقديم حلول واقعية ومستدامة.',
     'news_title' => 'أحدث الأخبار',
     'read_more' => 'اقرأ المزيد',
     // Scope of Work Section
@@ -172,7 +172,6 @@ return [
     // Why آي سي تي سي Section
     'why_آي سي تي سي_title' => 'لماذا آي سي تي سي؟',
     'why_آي سي تي سي_subtitle' => 'اكتشف الأسباب الرئيسية التي تجعل آي سي تي سي الخيار الموثوق للمنظمات حول العالم.',
-    'feature_1_title' => 'خبرة مثبتة',
     'feature_1_description' => 'عقود من الخبرة في تقديم حلول مؤثرة.',
     'feature_2_title' => 'حلول مخصصة',
     'feature_2_description' => 'نهج مخصص لتلبية احتياجات المؤسسات الفريدة.',
@@ -191,85 +190,91 @@ return [
     // Partners Section
     'partners_title' => 'الشركاء والاعتمادات',
     // Address Section
-    'address_title' => 'عن آي سي تي سي',
+    'address_title' => 'عن إنفنيت سمارت',
 
     // Page Header
     'breadcrumb_home' => 'الرئيسية',
     'breadcrumb_about' => 'من نحن',
     'page_header_about_us' => 'من نحن',
 
-    // About آي سي تي سي Section
-    'about_section_title' => 'عن آي سي تي سي',
-    'about_section_description' => 'آي سي تي سي هي منظمة رائدة متخصصة في التدريب والبحث والتكنولوجيا وتطوير المؤسسات. مع خبرة واسعة في تنمية المجتمع وبناء القدرات، تهدف آي سي تي سي إلى تقديم حلول مبتكرة لتعزيز الأداء المؤسسي والأثر المجتمعي.',
-    // Vision and Mission Section
-    'vision_title' => 'رؤيتنا',
-    'vision_description' => 'دفع تطوير المؤسسات والنمو المستدام من خلال تقديم حلول تكنولوجيا المعلومات والاتصالات المخصصة التي تمكّن المؤسسات من تعزيز كفاءتها وبناء قدراتها وتحقيق نجاح طويل الأمد في ظل التحول الرقمي المستمر.',
-    'mission_title' => 'مهمتنا',
-    'mission_description' => 'أن نكون المزود الرائد لحلول التكنولوجيا المبتكرة والمستدامة، مما يمكن الشركات والمجتمعات من الازدهار في العصر الرقمي.',
+   // قسم عن إنفنيت سمارت
+    'about_section_title' => 'عن إنفنيت سمارت',
+    'about_section_description' => 'إنفنيت سمارت هي شركة تقنية متخصصة في تطوير تطبيقات الويب والموبايل، وحلول إنترنت الأشياء الذكية، وتصميم وتصنيع لوحات تحكم متقدمة لأبواب الدوارة. ندمج البرمجيات الذكية مع الشاشات اللمسية لتوفير أنظمة تحكم ذكية وآمنة تتوافق مع المعايير الحديثة للسلامة والكفاءة.',
 
-    // Core Values Section
+    // قسم الرؤية والرسالة
+    'vision_title' => 'رؤيتنا',
+    'vision_description' => 'قيادة المستقبل الرقمي من خلال تقديم حلول ذكية ومتكاملة في تطوير البرمجيات وإنترنت الأشياء والتحكم الآلي، لبناء عالم أكثر كفاءة وترابطًا وذكاء.',
+    'mission_title' => 'مهمتنا',
+    'mission_description' => 'تصميم وتنفيذ أنظمة مبتكرة للويب والموبايل والتحكم الذكي، تمكّن الشركات والمجتمعات من الاستفادة من التكنولوجيا الموثوقة والقابلة للتوسع والآمنة وفقًا لاحتياجاتها المتطورة.',
+
+    // قسم القيم الأساسية
     'core_values_title' => 'القيم الأساسية',
-    'core_values_subtitle' => 'مبادئنا التوجيهية لتحقيق النمو المستدام والابتكار.',
+    'core_values_subtitle' => 'مبادئنا الأساسية التي تقود الابتكار والموثوقية والتحول الذكي.',
     'core_values' => [
-        ['icon' => 'fa-solid fa-shield-alt', 'color' => '#ff6b6b', 'title' => 'النزاهة'],
-        ['icon' => 'fa-solid fa-users', 'color' => '#6bcf63', 'title' => 'التمكين'],
-        ['icon' => 'fa-solid fa-lightbulb', 'color' => '#ffd93b', 'title' => 'الابتكار'],
-        ['icon' => 'fa-solid fa-star', 'color' => '#4ea8de', 'title' => 'الجودة'],
-        ['icon' => 'fa-solid fa-palette', 'color' => '#a77ef0', 'title' => 'الإبداع'],
-        ['icon' => 'fa-solid fa-seedling', 'color' => '#34c471', 'title' => 'التطوير'],
-        ['icon' => 'fa-solid fa-hands-helping', 'color' => '#ff9e42', 'title' => 'المسؤولية'],
-        ['icon' => 'fa-solid fa-chalkboard-teacher', 'color' => '#ffaec9', 'title' => 'بناء القدرات'],
-        ['icon' => 'fa-solid fa-heart', 'color' => '#f06292', 'title' => 'الالتزام'],
+        ['icon' => 'fa-solid fa-brain', 'color' => '#4ea8de', 'title' => 'الابتكار الذكي'],
+        ['icon' => 'fa-solid fa-cogs', 'color' => '#34c471', 'title' => 'الكفاءة'],
+        ['icon' => 'fa-solid fa-user-shield', 'color' => '#ff6b6b', 'title' => 'الأمان'],
+        ['icon' => 'fa-solid fa-mobile-alt', 'color' => '#6bcf63', 'title' => 'تصميم يركز على المستخدم'],
+        ['icon' => 'fa-solid fa-network-wired', 'color' => '#a77ef0', 'title' => 'الاتصال والترابط'],
+        ['icon' => 'fa-solid fa-chart-line', 'color' => '#ffd93b', 'title' => 'القابلية للتوسع'],
+        ['icon' => 'fa-solid fa-tools', 'color' => '#ff9e42', 'title' => 'الاعتمادية'],
+        ['icon' => 'fa-solid fa-globe', 'color' => '#f06292', 'title' => 'رؤية عالمية'],
+        ['icon' => 'fa-solid fa-lightbulb', 'color' => '#ffaec9', 'title' => 'حلول إبداعية'],
     ],
-    // Scope of Work Section
-    'scope_title' => 'مجال العمل',
-    'scope_subtitle' => 'استكشف المجالات الرئيسية حيث تقدم آي سي تي سي تأثيرها.',
-    'scope_items' => [
-        ['icon' => 'icon-research', 'title' => 'البحث', 'description' => 'تقديم دراسات وتحليلات مبنية على الأدلة.'],
-        ['icon' => 'icon-training', 'title' => 'التدريب', 'description' => 'تقديم برامج متخصصة لبناء المهارات والمعرفة.'],
-        ['icon' => 'icon-tech', 'title' => 'التكنولوجيا', 'description' => 'استخدام أدوات وحلول مبتكرة.'],
-        ['icon' => 'icon-organization', 'title' => 'تطوير المؤسسات', 'description' => 'بناء أطر وأنظمة تنظيمية قوية.'],
-    ],
+
+    // // Scope of Work Section
+    // 'scope_title' => 'مجال العمل',
+    // 'scope_subtitle' => 'استكشف المجالات الرئيسية حيث تقدم آي سي تي سي تأثيرها.',
+    // 'scope_items' => [
+    //     ['icon' => 'icon-research', 'title' => 'البحث', 'description' => 'تقديم دراسات وتحليلات مبنية على الأدلة.'],
+    //     ['icon' => 'icon-training', 'title' => 'التدريب', 'description' => 'تقديم برامج متخصصة لبناء المهارات والمعرفة.'],
+    //     ['icon' => 'icon-tech', 'title' => 'التكنولوجيا', 'description' => 'استخدام أدوات وحلول مبتكرة.'],
+    //     ['icon' => 'icon-organization', 'title' => 'تطوير المؤسسات', 'description' => 'بناء أطر وأنظمة تنظيمية قوية.'],
+    // ],
 
     // Experience Section
+    // قسم الخبرة
     'experience_title' => 'خبرتنا',
-    'experience_subtitle' => 'سجل آي سي تي سي الحافل في تحقيق النمو والابتكار.',
+    'experience_subtitle' => 'نجاحاتنا المثبتة في تقديم تقنيات ذكية متعددة القطاعات.',
     'experience_items' => [
-        ['icon' => 'fa-solid fa-chart-bar', 'color' => '#007bff', 'title' => 'البحث الميداني', 'description' => 'إجراء استطلاعات وتحليلات لتوليد رؤى قابلة للتنفيذ.'],
-        ['icon' => 'fa-solid fa-chalkboard', 'color' => '#4ea8de', 'title' => 'التدريب وتطوير المهارات', 'description' => 'تزويد الأفراد والمؤسسات بالمهارات الأساسية.'],
-        ['icon' => 'fa-solid fa-cogs', 'color' => '#6bcf63', 'title' => 'الحلول التكنولوجية', 'description' => 'تنفيذ الأدوات لتحسين الكفاءة والتحول الرقمي.'],
-        ['icon' => 'fa-solid fa-building', 'color' => '#ff6b6b', 'title' => 'تطوير المؤسسات', 'description' => 'تصميم وإنشاء أطر الحوكمة.'],
+        ['icon' => 'fa-solid fa-code', 'color' => '#007bff', 'title' => 'تطوير الويب والتطبيقات', 'description' => 'بناء منصات عالية الأداء وفقاً لأهدافك.'],
+        ['icon' => 'fa-solid fa-microchip', 'color' => '#6bcf63', 'title' => 'أنظمة إنترنت الأشياء', 'description' => 'تصميم لوحات ذكية للتحكم في الأنظمة الواقعية.'],
+        ['icon' => 'fa-solid fa-network-wired', 'color' => '#ffc107', 'title' => 'البنية التحتية الذكية', 'description' => 'تنفيذ حلول متكاملة للمجمعات والمنشآت الذكية.'],
+        ['icon' => 'fa-solid fa-shield-alt', 'color' => '#ff6b6b', 'title' => 'أنظمة التحكم والأمان', 'description' => 'تصميم لوحات تحكم متوافقة مع معايير السلامة للأبواب الدوارة والدخول.'],
     ],
+
     // Statistics Section
     'statistics_title' => 'الإحصائيات الرئيسية',
-    'statistics_subtitle' => 'اكتشف الأرقام التي تعرّف تأثيرنا.',
-    'projects_value' => '١٢٠',
-    'projects_title' => 'المشاريع',
-    'partners_value' => '٤٥',
-    'partners_title' => 'الشركاء',
-    'beneficiaries_value' => '٢٥,٠٠٠+',
-    'beneficiaries_title' => 'المستفيدون',
-    'governorates_value' => '١٨',
-    'governorates_title' => 'المحافظات',
+    'statistics_subtitle' => 'الأرقام التي تعكس تأثيرنا الذكي.',
+    'projects_value' => '٨٥+',
+    'projects_title' => 'المشاريع الذكية',
+    'partners_value' => '٣٠+',
+    'partners_title' => 'العملاء الاستراتيجيون',
+    'beneficiaries_value' => '١٠٠,٠٠٠+',
+    'beneficiaries_title' => 'مستخدمي التطبيقات',
+    'governorates_value' => '١٠+',
+    'governorates_title' => 'المدن المغطاة',
+
     // Services Section
     'services_title' => 'خدماتنا',
-    'services_subtitle' => 'استكشف جميع الخدمات التي نقدمها عبر مختلف المجالات.',
-    'market_analysis_title' => 'تحليل السوق',
-    'market_analysis_description' => 'دراسات شاملة لدعم قرارات الأعمال.',
-    'impact_assessment_title' => 'تقييم الأثر',
-    'impact_assessment_description' => 'تحليل نتائج وفعالية المشاريع.',
-    'skill_development_title' => 'تطوير المهارات',
-    'skill_development_description' => 'تعزيز مهارات القوى العاملة من خلال برامج مخصصة.',
-    'leadership_training_title' => 'تدريب القيادة',
-    'leadership_training_description' => 'بناء قدرات القيادة داخل المؤسسات.',
+    'services_subtitle' => 'استكشف خبراتنا في الحلول الذكية والتقنيات الرقمية.',
+    'market_analysis_title' => 'تطوير المواقع الإلكترونية',
+    'market_analysis_description' => 'تصميم وبناء مواقع ديناميكية ومنصات رقمية.',
+    'impact_assessment_title' => 'تطوير تطبيقات الجوال',
+    'impact_assessment_description' => 'تطبيقات مخصصة لأنظمة iOS و Android مع تكامل ذكي.',
+    'skill_development_title' => 'حلول إنترنت الأشياء',
+    'skill_development_description' => 'أنظمة متكاملة للبيوت والمدن والمؤسسات الصناعية.',
+    'leadership_training_title' => 'تحكم الأبواب الدوارة',
+    'leadership_training_description' => 'تصميم لوحات ذكية وبرمجيات متخصصة للتحكم في الأبواب.',
     'custom_software_title' => 'البرمجيات المخصصة',
-    'custom_software_description' => 'تطوير حلول مخصصة لتلبية الاحتياجات الفريدة.',
-    'automation_title' => 'الأتمتة',
-    'automation_description' => 'تبسيط العمليات باستخدام التكنولوجيا المتقدمة.',
-    'governance_frameworks_title' => 'أطر الحوكمة',
-    'governance_frameworks_description' => 'إقامة الحوكمة الفعالة للمؤسسات.',
-    'change_management_title' => 'إدارة التغيير',
-    'change_management_description' => 'قيادة المبادرات الناجحة للتغيير.',
+    'custom_software_description' => 'أنظمة مرنة مصممة حسب احتياجات وأهداف العملاء.',
+    'automation_title' => 'الأتمتة والمراقبة',
+    'automation_description' => 'لوحات تحكم ذكية لقياس الأداء والتحكم بالعمليات.',
+    'governance_frameworks_title' => 'الدمج مع السحابة',
+    'governance_frameworks_description' => 'نشر الأنظمة على منصات سحابية آمنة وقابلة للتوسّع.',
+    'change_management_title' => 'تصميم واجهات الاستخدام',
+    'change_management_description' => 'واجهات حديثة وتجربة استخدام سلسة وجذابة.',
+
     // Page Header
     'contact_us_title' => 'اتصل بنا',
     'contact_us_subtitle' => 'تواصل معنا لأي استفسارات أو دعم.',
@@ -278,13 +283,14 @@ return [
     'contact_info_title' => 'معلومات الاتصال الخاصة بنا',
     'contact_info_subtitle' => 'تواصل معنا من خلال أي من الطرق التالية.',
     'contact_address_title' => 'العنوان',
-    'contact_address_description' => 'مكتب آي سي تي سي، القاهرة، مصر',
+    'contact_address_description' => 'باب اللوق، القاهرة',
     'contact_phone_title' => 'الهاتف',
-    'contact_phone_description' => '+١٢٣-٤٥٦-٧٨٩٠',
+    'contact_phone_description' => '+٩٧١ ٥٥ ٧٤٧ ٤٥٢٦',
     'contact_email_title' => 'البريد الإلكتروني',
-    'contact_email_description' => 'contact@آي سي تي سي-egy.com',
+    'contact_email_description' => 'info@infinitsmart.com',
     'contact_website_title' => 'الموقع الإلكتروني',
-    'contact_website_description' => 'www.آي سي تي سي-egy.com',
+    'contact_website_description' => 'infinitsmart.com',
+
 
     // Contact Form Section
     'contact_form_title' => 'أرسل لنا رسالة',
@@ -296,7 +302,7 @@ return [
     'contact_form_message_placeholder' => 'اكتب رسالتك',
     'contact_form_button' => 'أرسل الرسالة',
     // Partners Section
-    'partners_heading' => 'شركاء آي سي تي سي',
+    'partners_heading' => 'شركاء انفنيت سمارت',
     'partners_subheading' => 'الشركاء والاعتمادات',
     'category_governmental' => 'المؤسسات الحكومية',
     'category_ngo' => 'المنظمات غير الحكومية',
@@ -576,4 +582,5 @@ return [
     'no_logo' => 'لم يتم رفع شعار',
     'no_cover' => 'لم يتم رفع صورة غلاف',
     'success_setting_updated' => 'تم تحديث الإعدادات بنجاح!',
+    'project_deleted' => 'تم حذف المشروع بنجاح!',
 ];

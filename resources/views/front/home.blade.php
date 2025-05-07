@@ -67,7 +67,7 @@
         </div>
     </section>
 
-    <section id="gallery" style="padding: 50px 0; background-color: #f9f9f9;">
+    {{-- <section id="gallery" style="padding: 50px 0; background-color: #f9f9f9;">
         <div class="container">
             <div class="section-title text-center" style="margin-bottom: 30px;">
                 <h2 style="font-size: 2.5rem; font-weight: bold; color: #333;">
@@ -114,7 +114,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <section id="scope-of-work" style="padding: 60px 0; background-color: #f9f9f9;">
         <div class="container">
@@ -155,7 +155,7 @@
                 <!-- Image Section -->
                 <div class="col-md-5 animate-fade-in-left">
                     <div class="about-image">
-                        <img src="img/dummies/blog/img1.jpg" alt="{{ __('lang.about_title') }}" class="img-fluid" />
+                        <img src="{{ asset($settings->logo ?? 'img/white logo.png') }}" alt="{{ __('lang.about_title') }}" class="img-fluid" />
                     </div>
                 </div>
 
@@ -205,10 +205,10 @@
         <div class="container">
             <div class="text-center mb-5">
                 <h2 style="font-size: 2.5rem; font-weight: bold; color: #333;">
-                    <strong> {{ __('lang.why_ictc_title') }} {{ __('lang.why_ictc_title_strong') }}</strong>
+                    <strong> {{ __('lang.why_infinit_title') }} {{ __('lang.why_infinit_title_strong') }}</strong>
                 </h2>
                 <p style="font-size: 1.1rem; color: #666;">
-                    {{ __('lang.why_ictc_subtitle') }}
+                    {{ __('lang.why_infinit_subtitle') }}
                 </p>
             </div>
             <div class="row text-center">

@@ -29,7 +29,7 @@
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="{{asset('ico/apple-touch-icon-114-precomposed.png')}}" />
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="{{asset('ico/apple-touch-icon-72-precomposed.png')}}" />
     <link rel="apple-touch-icon-precomposed" href="{{asset('ico/apple-touch-icon-57-precomposed.png')}}" />
-    <link rel="shortcut icon" href="{{asset('img/ictc.jpeg')}}" />
+    <link rel="shortcut icon" href="{{ asset($settings->logo ?? 'img/white logo.png') }}" />
     <!-- Add Google Fonts -->
     @if(app()->getLocale() === 'ar')
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600&display=swap" rel="stylesheet">
@@ -73,7 +73,7 @@
                     <div class="col-md-3 d-flex justify-content-center">
                         <div class="logo">
                             <a href="{{ route('home') }}" class="d-flex">
-                                <img src="{{ asset($settings->logo ?? 'img/white logo.png') }}" alt="Logo" style="max-height: 60px;">
+                                <img src="{{ asset($settings->logo ?? 'img/white logo.png') }}" alt="Logo" style="max-height: 100px;">
                             </a>
                         </div>
                     </div>
@@ -82,11 +82,11 @@
                         <div class="navbar navbar-static-top navigation">
                             <nav>
                                 <ul class="nav topnav" style="display: flex; gap: 10px; list-style: none; padding: 0; margin: 0;">
-                                    {{-- <li class="dropdown {{ request()->routeIs('home') ? 'active' : '' }}">
+                                    <li class="dropdown {{ request()->routeIs('home') ? 'active' : '' }}">
                                         <a href="{{ route('home') }}" class="nav-btn {{ request()->routeIs('home') ? 'btn-highlight' : '' }}">
                                             <i class="icon-home"></i> {{ __('lang.home') }}
                                         </a>
-                                    </li> --}}
+                                    </li>
                                     <li class="dropdown {{ request()->routeIs('about') ? 'active' : '' }}">
                                         <a href="{{ route('about') }}" class="nav-btn {{ request()->routeIs('about') ? 'btn-highlight' : '' }}">
                                             {{ __('lang.about') }}
@@ -105,8 +105,8 @@
                                     <li class="dropdown {{ request()->routeIs(['image-gallery', 'video-gallery','latest.news']) ? 'active' : '' }}">
                                         <a href="#" class="nav-btn">{{ __('lang.media') }} <i class="icon-angle-down"></i></a>
                                         <ul class="dropdown-menu" style="top: 60% !important;">
-                                            <li><a href="{{ route('image-gallery') }}">{{ __('lang.photos_gallery') }}</a></li>
-                                            <li><a href="{{ route('video-gallery') }}">{{ __('lang.videos_gallery') }}</a></li>
+                                            {{-- <li><a href="{{ route('image-gallery') }}">{{ __('lang.photos_gallery') }}</a></li>
+                                            <li><a href="{{ route('video-gallery') }}">{{ __('lang.videos_gallery') }}</a></li> --}}
                                             <li><a href="{{ route('latest.news') }}">{{ __('lang.latest_news') }}</a></li>
                                         </ul>
                                     </li>
@@ -188,8 +188,8 @@
                         <li class="dropdown {{ request()->routeIs(['image-gallery', 'video-gallery','latest.news']) ? 'active' : '' }}">
                             <a href="#" class="nav-btn">{{ __('lang.media') }} <i class="icon-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="{{ route('image-gallery') }}">{{ __('lang.photos_gallery') }}</a></li>
-                                <li><a href="{{ route('video-gallery') }}">{{ __('lang.videos_gallery') }}</a></li>
+                                {{-- <li><a href="{{ route('image-gallery') }}">{{ __('lang.photos_gallery') }}</a></li>
+                                <li><a href="{{ route('video-gallery') }}">{{ __('lang.videos_gallery') }}</a></li> --}}
                                 <li><a href="{{ route('latest.news') }}">{{ __('lang.latest_news') }}</a></li>
                             </ul>
                         </li>
@@ -245,31 +245,17 @@
 
             <!-- Social Icons -->
             <ul class="share__icons">
-                <!-- Facebook -->
-                <li style="--rotate: -18deg;">
-                    <a href="{{ !empty($settings->facebook) ? $settings->facebook : '#' }}" target="_blank" style="background-color: #1877F2;">
-                        <i class="fa-brands fa-facebook-f"></i>
-                    </a>
-                </li>
-
-                <!-- LinkedIn -->
-                <li style="--rotate: 27deg;">
-                    <a href="{{ !empty($settings->linkedin) ? $settings->linkedin : '#' }}" target="_blank" style="background-color: #0077b5;">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </a>
-                </li>
-
                 <!-- WhatsApp -->
-                <li style="--rotate: 72deg;">
-                    <a href="{{ !empty($settings->whatsapp) ? 'https://wa.me/' . $settings->whatsapp : '#' }}" target="_blank" style="background-color: #25D366;">
+                <li style="--rotate: 0deg;">
+                    <a href="https://wa.me/201554923541" target="_blank" style="background-color: #25D366;">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
                 </li>
 
-                <!-- YouTube -->
-                <li style="--rotate: 117deg;">
-                    <a href="{{ !empty($settings->youtube) ? $settings->youtube : '#' }}" target="_blank" style="background-color: #FF0000;">
-                        <i class="fa-brands fa-youtube"></i>
+                <!-- Email -->
+                <li style="--rotate: 45deg;">
+                    <a href="mailto:info@infinitsmart.com" style="background-color: #D44638;">
+                        <i class="fa-solid fa-envelope"></i>
                     </a>
                 </li>
             </ul>
@@ -335,8 +321,8 @@
                     <div class="col-md-4">
                         <h5 style="color: #fff; font-weight: bold;">{{ __('lang.contact') }}</h5>
                         <p>
-                            <i class="fa fa-phone"></i> {{ __('lang.support') }}&nbsp; :&nbsp; 020000000<br>
-                            <i class="fa fa-envelope"></i> {{ __('lang.email') }}&nbsp; : &nbsp;contact@ictc-egy.com
+                            <i class="fa fa-phone"></i> {{ __('lang.support') }}&nbsp; :&nbsp;<span dir="ltr"> +20 15 54923541</span> <br>
+                            <i class="fa fa-envelope"></i> {{ __('lang.email') }}&nbsp; : &nbsp;info@infinitsmart.com
                         </p>
                         <div style="display: flex; gap: 10px;">
                             <!-- Facebook -->
@@ -378,7 +364,7 @@
                     <p style="margin: 5px 0 0; color: #ccc;">
                         {{ __('lang.developed_by') }}
                         <a href="https://wa.me/201555622169" target="_blank" style="color: #25D366; text-decoration: none;">
-                            <strong>Eng: Bola Eshaq</strong>
+                            <strong>Infinit Smart</strong>
                         </a>
                     </p>
                 </div>
@@ -511,43 +497,49 @@
         });
 
         // Photo Gallery Lightbox
-        document.addEventListener('DOMContentLoaded', () => {
-            // Initialize Swiper
-            const swiper = new Swiper('.swiper-container', {
-                navigation: {
-                    nextEl: '.swiper-button-next',
-                    prevEl: '.swiper-button-prev',
-                },
-            });
+        // document.addEventListener('DOMContentLoaded', () => {
+        //     // Initialize Swiper
+        //     const swiper = new Swiper('.swiper-container', {
+        //         navigation: {
+        //             nextEl: '.swiper-button-next',
+        //             prevEl: '.swiper-button-prev',
+        //         },
+        //     });
 
-            // Open modal and navigate to the clicked image
-            const galleryItems = document.querySelectorAll('.gallery-item');
-            const modal = document.getElementById('lightbox-modal');
-            const modalInstance = new bootstrap.Modal(modal);
+        //     // Open modal and navigate to the clicked image
+        //     const galleryItems = document.querySelectorAll('.gallery-item');
+        //     const modal = document.getElementById('lightbox-modal');
+        //     const modalInstance = new bootstrap.Modal(modal);
 
-            galleryItems.forEach((item, index) => {
-                item.addEventListener('click', (e) => {
-                    e.preventDefault();
-                    swiper.slideTo(index, 0); // Go to the clicked image
-                    modalInstance.show(); // Open the modal
-                });
-            });
-        });
+        //     galleryItems.forEach((item, index) => {
+        //         item.addEventListener('click', (e) => {
+        //             e.preventDefault();
+        //             swiper.slideTo(index, 0); // Go to the clicked image
+        //             modalInstance.show(); // Open the modal
+        //         });
+        //     });
+        // });
 
         // Show spinner on page load
         document.addEventListener('DOMContentLoaded', () => {
             const spinner = document.getElementById('loadingSpinner');
             spinner.classList.add('active');
 
-            // Hide spinner after page fully loads
-            window.addEventListener('load', () => {
-                spinner.classList.remove('active');
-            });
+            // Hide spinner after full page load or DOM is ready
+            function hideSpinnerWhenReady() {
+                if (document.readyState === 'complete' || document.readyState === 'interactive') {
+                    spinner.classList.remove('active');
+                } else {
+                    window.addEventListener('load', () => spinner.classList.remove('active'));
+                }
+            }
 
-            // Handle route changes for Single Page Applications (SPAs)
+            hideSpinnerWhenReady();
+
+            // Handle route changes for SPA-like navigation
             if (window.history.pushState) {
                 document.addEventListener('click', (e) => {
-                    const target = e.target.closest('a'); // Find the closest anchor tag
+                    const target = e.target.closest('a');
                     if (
                         target &&
                         target.href &&
@@ -555,20 +547,21 @@
                         target.getAttribute('href') !== '#' &&
                         target.getAttribute('href') !== ''
                     ) {
-                        e.preventDefault(); // Prevent default navigation
-                        spinner.classList.add('active'); // Show spinner
+                        e.preventDefault();
+                        spinner.classList.add('active');
 
-                        // Simulate loading (replace this part with your actual page navigation logic)
                         setTimeout(() => {
-                            window.location.href = target.href; // Perform navigation
-                        }, 1000); // Adjust the delay as needed
+                            window.location.href = target.href;
+                        }, 1000);
                     }
                 });
             }
 
-            // Hide spinner on popstate (back/forward button)
+            // Handle back/forward buttons (popstate)
             window.addEventListener('popstate', () => {
-                spinner.classList.remove('active');
+                spinner.classList.add('active');
+                // Wait briefly then hide the spinner (for cached navigation)
+                setTimeout(hideSpinnerWhenReady, 50);
             });
         });
 

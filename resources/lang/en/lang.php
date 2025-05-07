@@ -124,7 +124,7 @@ return [
     'videos_gallery' => 'Videos Gallery',
     'partners' => 'Partners',
     'contact' => 'Contact',
-    'company_name' => 'ICTC FOR TRAINING AND CONSULTING',
+    'company_name' => 'Infinit Smart for Technology and Digital Solutions',
     'useful_links' => 'Useful Links',
     'about_us' => 'About Us',
     'working_area' => 'Working Area',
@@ -145,11 +145,11 @@ return [
     'next' => 'Next',
     // About Us Section
     'about_title' => 'Who Are We?',
-    'about_description' => 'ICTC is a leading organization specializing in training, research, technology, and institutional development. With extensive expertise in community development and capacity building, ICTC provides innovative solutions to enhance organizational performance and societal impact.',
-    'feature_1_title' => 'Innovative Solutions',
-    'feature_1_description' => 'Tailored strategies to drive growth and sustainability.',
-    'feature_2_title' => 'Community Focused',
-    'feature_2_description' => 'Empowering communities with impactful initiatives.',
+    'about_description' => 'Infinit Smart is a leading company in software development, IoT solutions, and smart control systems for revolving doors. We deliver cutting-edge technology tailored to modern business needs while adhering to the highest standards of quality and safety.',
+    'feature_1_title' => 'Integrated Tech Solutions',
+    'feature_1_description' => 'We design and develop intelligent applications and systems from coding to hardware integration.',
+    'feature_2_title' => 'Industry-Proven Expertise',
+    'feature_2_description' => 'Our team combines technical depth and real-world execution to deliver sustainable, practical solutions.',
     'news_title' => 'Latest News',
     'read_more' => 'Read More',
     // Scope of Work Section
@@ -165,8 +165,11 @@ return [
     'scope_institutional_description' => 'Building robust organizational frameworks and systems.',
     'learn_more' => 'Learn More',
     // Why ICTC Section
-    'why_ictc_title' => 'Why ICTC?',
-    'why_ictc_subtitle' => 'Discover the key reasons why ICTC is the trusted choice for organizations worldwide.',
+    // front home
+    'why_infinit_title' => 'Why',
+    'why_infinit_title_strong' => 'INFINIT SMART?',
+    'why_infinit_subtitle' => 'We are a leading provider of integrated software and smart automation solutions. From mobile apps to IoT and control systems, we deliver high-tech services with unmatched quality and innovation.',
+
     'feature_1_title' => 'Proven Expertise',
     'feature_1_description' => 'Decades of experience delivering impactful solutions.',
     'feature_2_title' => 'Customized Solutions',
@@ -186,36 +189,38 @@ return [
     // Partners and Accreditations Section
     'partners_title' => 'Our Partners and Accreditations',
     // Address Section
-    'address_title' => 'About ICTC',
+    'address_title' => 'About Infinit Smart',
 
     // Page Header
     'breadcrumb_home' => 'Home',
     'breadcrumb_about' => 'About',
     'page_header_about_us' => 'About Us',
 
-    // About ICTC Section
-    'about_section_title' => 'About ICTC',
-    'about_section_description' => 'ICTC is a leading organization specializing in training, research, technology, and institutional development. With extensive expertise in community development and capacity building, ICTC aims to provide innovative solutions to enhance organizational performance and societal impact.',
+    // About Infinit Smart Section
+    'about_section_title' => 'About Infinit Smart',
+    'about_section_description' => 'Infinit Smart is a technology-driven company specializing in web and mobile app development, IoT smart solutions, and control system engineering. We design and manufacture advanced control boards for revolving doors integrated with intelligent software and touchscreen panels—ensuring safety, efficiency, and smart control for modern environments.',
+
     // Vision and Mission Section
     'vision_title' => 'Our Vision',
-    'vision_description' => 'To drive institutional development and sustainable growth by delivering tailored ICT solutions that empower organizations to enhance their efficiency, build capacity, and achieve long-term success in an ever-evolving digital landscape.',
+    'vision_description' => 'To lead the digital future by delivering smart, integrated solutions in software development, IoT, and automation—shaping a more efficient, connected, and intelligent world.',
     'mission_title' => 'Our Mission',
-    'mission_description' => 'To be a leading provider of innovative and sustainable technology solutions, empowering businesses and communities to thrive in the digital era.',
+    'mission_description' => 'To design and implement innovative web, mobile, and smart control systems that empower businesses and communities with reliable, scalable, and secure technology tailored to their evolving needs.',
 
     // Core Values Section
     'core_values_title' => 'Core Values',
-    'core_values_subtitle' => 'Our guiding principles for sustainable growth and innovation.',
+    'core_values_subtitle' => 'Our foundational principles driving innovation, reliability, and smart transformation.',
     'core_values' => [
-        ['icon' => 'fa-solid fa-shield-alt', 'color' => '#ff6b6b', 'title' => 'Integrity'],
-        ['icon' => 'fa-solid fa-users', 'color' => '#6bcf63', 'title' => 'Empowerment'],
-        ['icon' => 'fa-solid fa-lightbulb', 'color' => '#ffd93b', 'title' => 'Innovation'],
-        ['icon' => 'fa-solid fa-star', 'color' => '#4ea8de', 'title' => 'Quality'],
-        ['icon' => 'fa-solid fa-palette', 'color' => '#a77ef0', 'title' => 'Creativity'],
-        ['icon' => 'fa-solid fa-seedling', 'color' => '#34c471', 'title' => 'Development'],
-        ['icon' => 'fa-solid fa-hands-helping', 'color' => '#ff9e42', 'title' => 'Responsibility'],
-        ['icon' => 'fa-solid fa-chalkboard-teacher', 'color' => '#ffaec9', 'title' => 'Capacity Building'],
-        ['icon' => 'fa-solid fa-heart', 'color' => '#f06292', 'title' => 'Commitment'],
+        ['icon' => 'fa-solid fa-brain', 'color' => '#4ea8de', 'title' => 'Smart Innovation'],
+        ['icon' => 'fa-solid fa-cogs', 'color' => '#34c471', 'title' => 'Efficiency'],
+        ['icon' => 'fa-solid fa-user-shield', 'color' => '#ff6b6b', 'title' => 'Security'],
+        ['icon' => 'fa-solid fa-mobile-alt', 'color' => '#6bcf63', 'title' => 'User-Centric Design'],
+        ['icon' => 'fa-solid fa-network-wired', 'color' => '#a77ef0', 'title' => 'Connectivity'],
+        ['icon' => 'fa-solid fa-chart-line', 'color' => '#ffd93b', 'title' => 'Scalability'],
+        ['icon' => 'fa-solid fa-tools', 'color' => '#ff9e42', 'title' => 'Reliability'],
+        ['icon' => 'fa-solid fa-globe', 'color' => '#f06292', 'title' => 'Global Vision'],
+        ['icon' => 'fa-solid fa-lightbulb', 'color' => '#ffaec9', 'title' => 'Creative Solutions'],
     ],
+
     // Scope of Work Section
     'scope_title' => 'Scope of Work',
     'scope_subtitle' => 'Explore the key areas where ICTC delivers impact.',
@@ -228,43 +233,46 @@ return [
 
     // Experience Section
     'experience_title' => 'Our Experience',
-    'experience_subtitle' => "ICTC's track record in driving growth and innovation.",
+    'experience_subtitle' => 'Proven success in delivering smart technologies across sectors.',
     'experience_items' => [
-        ['icon' => 'fa-solid fa-chart-bar', 'color' => '#007bff', 'title' => 'Field Research', 'description' => 'Conducting surveys and analyses to generate actionable insights.'],
-        ['icon' => 'fa-solid fa-chalkboard', 'color' => '#4ea8de', 'title' => 'Training & Skills Development', 'description' => 'Equipping individuals and organizations with essential skills.'],
-        ['icon' => 'fa-solid fa-cogs', 'color' => '#6bcf63', 'title' => 'Technological Solutions', 'description' => 'Implementing tools to optimize efficiency and digital transformation.'],
-        ['icon' => 'fa-solid fa-building', 'color' => '#ff6b6b', 'title' => 'Institutional Development', 'description' => 'Designing and establishing governance frameworks.'],
+        ['icon' => 'fa-solid fa-code', 'color' => '#007bff', 'title' => 'Web & App Development', 'description' => 'Building high-performance platforms tailored to your goals.'],
+        ['icon' => 'fa-solid fa-microchip', 'color' => '#6bcf63', 'title' => 'IoT & Embedded Systems', 'description' => 'Creating smart boards to automate and control real-world systems.'],
+        ['icon' => 'fa-solid fa-network-wired', 'color' => '#ffc107', 'title' => 'Smart Infrastructure', 'description' => 'Deploying integrated solutions for smart compounds and facilities.'],
+        ['icon' => 'fa-solid fa-shield-alt', 'color' => '#ff6b6b', 'title' => 'Security & Control Systems', 'description' => 'Designing safety-compliant control boards for revolving doors and access.'],
     ],
+
     // Statistics Section
     'statistics_title' => 'Key Statistics',
-    'statistics_subtitle' => 'Explore the numbers that define our impact.',
-    'projects_value' => '120',
-    'projects_title' => 'Projects',
-    'partners_value' => '45',
-    'partners_title' => 'Partners',
-    'beneficiaries_value' => '25,000+',
-    'beneficiaries_title' => 'Beneficiaries',
-    'governorates_value' => '18',
-    'governorates_title' => 'Governorates',
+    'statistics_subtitle' => 'The numbers that reflect our smart impact.',
+    'projects_value' => '85+',
+    'projects_title' => 'Smart Projects',
+    'partners_value' => '30+',
+    'partners_title' => 'Strategic Clients',
+    'beneficiaries_value' => '100,000+',
+    'beneficiaries_title' => 'App Users',
+    'governorates_value' => '10+',
+    'governorates_title' => 'Cities Covered',
+
     // Services Section
     'services_title' => 'Our Services',
-    'services_subtitle' => 'Explore all the services we offer across different scopes.',
-    'market_analysis_title' => 'Market Analysis',
-    'market_analysis_description' => 'Comprehensive studies to support business decisions.',
-    'impact_assessment_title' => 'Impact Assessment',
-    'impact_assessment_description' => 'Analyzing the outcomes and effectiveness of projects.',
-    'skill_development_title' => 'Skill Development',
-    'skill_development_description' => 'Enhancing workforce skills through tailored programs.',
-    'leadership_training_title' => 'Leadership Training',
-    'leadership_training_description' => 'Building leadership capacity within organizations.',
+    'services_subtitle' => 'Explore our expertise across smart technologies and digital solutions.',
+    'market_analysis_title' => 'Web Development',
+    'market_analysis_description' => 'Designing and building dynamic websites and platforms.',
+    'impact_assessment_title' => 'Mobile App Development',
+    'impact_assessment_description' => 'Custom mobile apps for iOS and Android with smart integration.',
+    'skill_development_title' => 'Smart IoT Solutions',
+    'skill_development_description' => 'End-to-end IoT systems for homes, cities, and industries.',
+    'leadership_training_title' => 'Revolving Door Control',
+    'leadership_training_description' => 'Custom control boards and software for automated doors.',
     'custom_software_title' => 'Custom Software',
-    'custom_software_description' => 'Developing tailored solutions to meet unique needs.',
-    'automation_title' => 'Automation',
-    'automation_description' => 'Streamlining operations with advanced technology.',
-    'governance_frameworks_title' => 'Governance Frameworks',
-    'governance_frameworks_description' => 'Establishing effective governance for organizations.',
-    'change_management_title' => 'Change Management',
-    'change_management_description' => 'Driving successful change initiatives.',
+    'custom_software_description' => 'Tailored systems to match your business needs and logic.',
+    'automation_title' => 'Automation & Monitoring',
+    'automation_description' => 'Smart dashboards to monitor, control, and optimize processes.',
+    'governance_frameworks_title' => 'Cloud Integration',
+    'governance_frameworks_description' => 'Deploying secure and scalable systems on cloud platforms.',
+    'change_management_title' => 'UI/UX Design',
+    'change_management_description' => 'Modern user interfaces that deliver intuitive experiences.',
+
     // Page Header
     'contact_us_title' => 'Contact Us',
     'contact_us_subtitle' => 'Get in touch with us for any inquiries or support.',
@@ -273,13 +281,13 @@ return [
     'contact_info_title' => 'Our Contact Information',
     'contact_info_subtitle' => 'Reach out to us through any of the following methods.',
     'contact_address_title' => 'Address',
-    'contact_address_description' => 'ICTC OFFICE, CAIRO, EGYPT',
+    'contact_address_description' => 'Bab El Louk, Cairo',
     'contact_phone_title' => 'Phone',
-    'contact_phone_description' => '+123-456-7890',
+    'contact_phone_description' => '+971 55 747 4526',
     'contact_email_title' => 'Email',
-    'contact_email_description' => 'contact@ictc-egy.com',
+    'contact_email_description' => 'info@infinitsmart.com',
     'contact_website_title' => 'Website',
-    'contact_website_description' => 'www.ictc-egy.com',
+    'contact_website_description' => 'infinitsmart.com',
 
     // Contact Form Section
     'contact_form_title' => 'Send Us a Message',
@@ -291,7 +299,7 @@ return [
     'contact_form_message_placeholder' => 'Write your message',
     'contact_form_button' => 'Send Message',
     // Partners and Accreditations Section
-    'partners_heading' => 'ICTC Partners and Accreditations',
+    'partners_heading' => 'Infinit Smart Partners and Accreditations',
     'partners_subheading' => 'Our Partners and Accreditations',
     'category_governmental' => 'Governmental Institutions',
     'category_ngo' => 'Non-Governmental Organizations',
@@ -303,8 +311,7 @@ return [
     'partners_title' => 'Our',
     'partners_title_strong' => 'Partners and Accreditations',
 
-    'why_ictc_title' => 'Why',
-    'why_ictc_title_strong' => 'ICTC?',
+
 
     'scope_work_title' => 'Scope of',
     'scope_work_title_strong' => 'Work',
@@ -569,6 +576,7 @@ return [
     'no_logo' => 'No Logo Uploaded',
     'no_cover' => 'No Cover Image Uploaded',
     'success_setting_updated' => 'Settings updated successfully!',
+    'project_deleted' => 'Project deleted successfully!',
 ];
 
 

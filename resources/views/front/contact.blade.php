@@ -26,46 +26,56 @@
       </p>
     </div>
     <div class="row g-4">
-      <!-- Address Card -->
-      <div class="col-md-6 col-lg-3">
+        <!-- Address Card -->
+        <div class="col-md-6 col-lg-3">
         <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
-          <div class="icon mb-3" style="font-size: 3rem; color: #007bff;">
+            <div class="icon mb-3" style="font-size: 3rem; color: #007bff;">
             <i class="fa fa-map-marker-alt"></i>
-          </div>
-          <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_address_title') }}</h5>
-          <p style="font-size: 1rem; color: #666;">{{ __('lang.contact_address_description') }}</p>
+            </div>
+            <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_address_title') }}</h5>
+            <p style="font-size: 1rem; color: #666;">{{ __('lang.contact_address_description') }}</p>
         </div>
-      </div>
-      <!-- Phone Card -->
-      <div class="col-md-6 col-lg-3">
-        <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
-          <div class="icon mb-3" style="font-size: 3rem; color: #28a745;">
-            <i class="fa fa-phone"></i>
-          </div>
-          <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_phone_title') }}</h5>
-          <p style="font-size: 1rem; color: #666;">{{ __('lang.contact_phone_description') }}</p>
         </div>
-      </div>
-      <!-- Email Card -->
-      <div class="col-md-6 col-lg-3">
-        <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
-          <div class="icon mb-3" style="font-size: 3rem; color: #ffc107;">
-            <i class="fa fa-envelope"></i>
-          </div>
-          <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_email_title') }}</h5>
-          <p style="font-size: 1rem; color: #666;">{{ __('lang.contact_email_description') }}</p>
+
+        <!-- Phone Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
+            <div class="icon mb-3" style="font-size: 3rem; color: #28a745;">
+                <i class="fa fa-phone"></i>
+            </div>
+            <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_phone_title') }}</h5>
+            <p style="font-size: 1rem; color: #666;">
+                <a href="tel:+971557474526" style="color: inherit; text-decoration: none;">{{ __('lang.contact_phone_description') }}</a>
+            </p>
+            </div>
         </div>
-      </div>
-      <!-- Website Card -->
-      <div class="col-md-6 col-lg-3">
-        <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
-          <div class="icon mb-3" style="font-size: 3rem; color: #17a2b8;">
-            <i class="fa fa-globe"></i>
-          </div>
-          <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_website_title') }}</h5>
-          <p style="font-size: 1rem; color: #666;">{{ __('lang.contact_website_description') }}</p>
+
+        <!-- Email Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
+            <div class="icon mb-3" style="font-size: 3rem; color: #ffc107;">
+                <i class="fa fa-envelope"></i>
+            </div>
+            <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_email_title') }}</h5>
+            <p style="font-size: 1rem; color: #666;">
+                <a href="mailto:info@infinitsmart.com" style="color: inherit; text-decoration: none;">{{ __('lang.contact_email_description') }}</a>
+            </p>
+            </div>
         </div>
-      </div>
+
+        <!-- Website Card -->
+        <div class="col-md-6 col-lg-3">
+            <div class="card text-center shadow-sm p-4 h-100" style="border-radius: 15px; background-color: #fff;">
+            <div class="icon mb-3" style="font-size: 3rem; color: #17a2b8;">
+                <i class="fa fa-globe"></i>
+            </div>
+            <h5 class="fw-bold" style="color: #333;">{{ __('lang.contact_website_title') }}</h5>
+            <p style="font-size: 1rem; color: #666;">
+                <a href="https://infinitsmart.com" target="_blank" style="color: inherit; text-decoration: none;">{{ __('lang.contact_website_description') }}</a>
+            </p>
+            </div>
+        </div>
+
     </div>
   </div>
 </section>
@@ -115,19 +125,21 @@
             </div>
         </div>
 
-      <!-- Google Map -->
-      <div class="col-md-6">
-        <div class="map-container" style="height: 400px; border-radius: 15px; overflow: hidden;">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.8354345093687!2d144.96315791537373!3d-37.814107979751555!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6ad642af0f11fd81%3A0xf577b6b4ef72c5d0!2sFederation+Square!5e0!3m2!1sen!2sau!4v1511369417757"
-            width="100%"
-            height="100%"
-            frameborder="0"
-            style="border:0;"
-            allowfullscreen>
-          </iframe>
+        <!-- Google Map -->
+        <div class="col-md-6">
+            <div class="map-container" style="height: 400px; border-radius: 15px; overflow: hidden;">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3454.1844922525826!2d31.246182375361044!3d30.039741618192455!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458412a8e0c46c5%3A0x7a5e5ef0e87bb0df!2z2YXYr9mK2YUg2KfZhNmF2K_Ys9mK2Kkg2YbYp9iv2Yog2KfZhNix2YrYp9ivINin2YTYs9mI2Yog2KfZhNis2K_ZiNmE!5e0!3m2!1sar!2seg!4v1715083600000"
+                width="100%"
+                height="100%"
+                frameborder="0"
+                style="border:0;"
+                allowfullscreen
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
         </div>
-      </div>
     </div>
   </div>
 </section>
