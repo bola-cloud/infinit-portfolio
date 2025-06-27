@@ -25,7 +25,7 @@ class SettingController extends Controller
             'youtube' => 'nullable|url',
             'whatsapp' => 'nullable|string',
             'email' => 'nullable|email',
-            'logo' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:2048',
+            'logo' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp,svg|max:2048',
             'cover_image' => 'nullable|image|mimes:jpeg,png,jpg,gif,webp|max:4096',
         ]);
 
