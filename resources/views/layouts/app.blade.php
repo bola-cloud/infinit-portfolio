@@ -523,45 +523,35 @@
         // Show spinner on page load
         document.addEventListener('DOMContentLoaded', () => {
             const spinner = document.getElementById('loadingSpinner');
+
+            // Show spinner initially (for direct entry)
             spinner.classList.add('active');
 
-            // Hide spinner after full page load or DOM is ready
-            function hideSpinnerWhenReady() {
-                if (document.readyState === 'complete' || document.readyState === 'interactive') {
-                    spinner.classList.remove('active');
-                } else {
-                    window.addEventListener('load', () => spinner.classList.remove('active'));
+            // Hide spinner after full load or on bfcache restore
+            window.addEventListener('pageshow', (event) => {
+                spinner.classList.remove('active');
+            });
+
+            // Handle internal link clicks
+            document.addEventListener('click', (e) => {
+                const target = e.target.closest('a');
+                if (
+                    target &&
+                    target.href &&
+                    target.target !== '_blank' &&
+                    !target.href.startsWith('javascript:') &&
+                    target.getAttribute('href') !== '#' &&
+                    !target.hasAttribute('data-no-spinner') &&
+                    target.origin === location.origin &&
+                    target.pathname !== location.pathname // 🚨 This prevents anchor #links from triggering spinner
+                ) {
+                    spinner.classList.add('active');
                 }
-            }
+            });
 
-            hideSpinnerWhenReady();
-
-            // Handle route changes for SPA-like navigation
-            if (window.history.pushState) {
-                document.addEventListener('click', (e) => {
-                    const target = e.target.closest('a');
-                    if (
-                        target &&
-                        target.href &&
-                        target.target !== '_blank' &&
-                        target.getAttribute('href') !== '#' &&
-                        target.getAttribute('href') !== ''
-                    ) {
-                        e.preventDefault();
-                        spinner.classList.add('active');
-
-                        setTimeout(() => {
-                            window.location.href = target.href;
-                        }, 1000);
-                    }
-                });
-            }
-
-            // Handle back/forward buttons (popstate)
-            window.addEventListener('popstate', () => {
+            // Ensure spinner appears during unload (just in case)
+            window.addEventListener('beforeunload', () => {
                 spinner.classList.add('active');
-                // Wait briefly then hide the spinner (for cached navigation)
-                setTimeout(hideSpinnerWhenReady, 50);
             });
         });
 
