@@ -24,7 +24,7 @@
                 @else
                     <p>{{ __('lang.no_logo') }}</p>
                 @endif
-                <input type="file" name="logo" class="form-control mt-2" accept=".jpeg,.jpg,.png,.gif,.webp">
+                <input type="file" name="logo" class="form-control mt-2" accept="image/*">
                 @error('logo')
                     <small class="text-danger">{{ $message }}</small>
                 @enderror
