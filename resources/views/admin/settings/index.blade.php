@@ -40,7 +40,7 @@
                 @else
                     <p>{{ __('lang.no_cover') }}</p>
                 @endif
-                <input type="file" name="cover_image" class="form-control mt-2" accept=".jpeg,.jpg,.png,.gif,.webp,.svg">
+                <input type="file" name="cover_image" class="form-control mt-2" accept="image/*">
                 @error('cover_image')
                     <small class="text-danger">{{ $message }}</small>
                 @enderror
